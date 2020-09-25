@@ -121,7 +121,7 @@ function endGame() {
 
   window.removeEventListener('keydown',moveDodger)
   const end=document.createElement("div")
-  end.innerText="END"
+  end.innerText="YOU LOSE"
   end.className="end"
   GAME.appendChild(end)
 }
