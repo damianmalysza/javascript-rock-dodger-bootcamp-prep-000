@@ -82,6 +82,7 @@ function createRock(x) {
     
     if (checkCollision(rock)){
       endGame()
+      sleep(2)
       return
     }
     /**
