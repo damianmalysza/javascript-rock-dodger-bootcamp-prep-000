@@ -6,7 +6,6 @@ const LEFT_ARROW = 37 // use e.which!
 const RIGHT_ARROW = 39 // use e.which!
 const ROCKS = []
 const START = document.getElementById('start')
-const END=document.getElementsByClassName("end")
 
 var gameInterval = null
 
@@ -182,7 +181,6 @@ function start() {
   window.addEventListener('keydown', moveDodger)
 
   START.style.display = 'none'
-  END.style.display = 'none'
 
   gameInterval = setInterval(function() {
     createRock(Math.floor(Math.random() *  (GAME_WIDTH - 20)))
