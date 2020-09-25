@@ -26,7 +26,7 @@
 .rock {
   width: 20px;
   height: 20px;
-  background: tan;
+  background: #0b97c4;
   position: absolute;
 }
 
@@ -46,7 +46,7 @@
   content: "";
   border-left: 6px solid #111;
   border-right: 6px solid #111;
-  border-top: 6px solid tan;
+  border-top: 6px solid #0b97c4;
   bottom: 0;
   height: 0;
   left: 0;
