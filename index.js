@@ -181,6 +181,7 @@ function start() {
   window.addEventListener('keydown', moveDodger)
 
   START.style.display = 'none'
+  
 
   gameInterval = setInterval(function() {
     createRock(Math.floor(Math.random() *  (GAME_WIDTH - 20)))
