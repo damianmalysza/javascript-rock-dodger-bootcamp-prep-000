@@ -32,7 +32,7 @@
 
 .rock:before {
   content: "";
-  border-bottom: 6px solid tan;
+  border-bottom: 6px solid #0b97c4;
   border-left: 6px solid #111;
   border-right: 6px solid #111;
   height: 0;
