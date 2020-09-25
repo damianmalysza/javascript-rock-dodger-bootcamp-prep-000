@@ -11,6 +11,7 @@ var gameInterval = null
 
 
 function checkCollision(rock) {
+  console.log("CHECK COLLISION CALLED")
   // implement me!
   // use the comments below to guide you!
   const top = positionToInteger(rock.style.top)
@@ -51,6 +52,7 @@ function checkCollision(rock) {
 }
 
 function createRock(x) {
+  console.log("CREATE ROCK CALLED")
   const rock = document.createElement('div')
 
   rock.className = 'rock'
@@ -71,6 +73,7 @@ function createRock(x) {
    * seems like a good pace.)
    */
   function moveRock() {
+    console.log("MOVE ROCK CALLED")
     // implement me!
     // (use the comments below to guide you!)
     /**
