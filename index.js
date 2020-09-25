@@ -120,7 +120,7 @@ function endGame() {
   ROCKS.forEach(element=>element.remove())
 
   window.removeEventListener('keydown',moveDodger)
-  docume
+  body.appendChild("div")
 }
 
 function moveDodger(e) {
