@@ -11,7 +11,6 @@ var gameInterval = null
 
 
 function checkCollision(rock) {
-  console.log("CHECK COLLISION CALLED")
   // implement me!
   // use the comments below to guide you!
   const top = positionToInteger(rock.style.top)
