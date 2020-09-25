@@ -138,7 +138,7 @@ function moveDodger(e) {
 function moveDodgerLeft() {
   function moveLeft(){
     var currentPos=positionToInteger(DODGER.style.left)
-    dodger.style.left=`${currentPos-4}px`
+    dodger.style.left=`${currentPos-8}px`
   }
   if(positionToInteger(dodger.style.left)>0){
   window.requestAnimationFrame(moveLeft)
@@ -152,7 +152,7 @@ function moveDodgerLeft() {
 function moveDodgerRight() {
   function moveRight(){
     var currentPos=positionToInteger(DODGER.style.left)
-    dodger.style.left=`${currentPos+4}px`
+    dodger.style.left=`${currentPos+8}px`
   }
   if(positionToInteger(dodger.style.left)<360){
   window.requestAnimationFrame(moveRight)
