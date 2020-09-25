@@ -72,7 +72,8 @@ function createRock(x) {
    * This function moves the rock. (2 pixels at a time
    * seems like a good pace.)
    */
-  function moveRock() {
+}
+function moveRock() {
     // implement me!
     // (use the comments below to guide you!)
     /**
@@ -99,7 +100,7 @@ function createRock(x) {
     if (positionToInteger(rock.style.top)>=380){
       rock.remove()
     }
-  }
+  
 
   // We should kick off the animation of the rock around here.
   window.requestAnimationFrame(moveRock)
@@ -110,7 +111,6 @@ function createRock(x) {
   // Finally, return the rock element you've created.
   return rock
 }
-
 
 /**
  * End the game by clearing `gameInterval`,
